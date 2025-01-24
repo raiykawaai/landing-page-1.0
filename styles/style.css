@@ -44,7 +44,7 @@ header a{
 
 body{
     background-color: #E5E5E5;
-    width: 100%;
+
 }
 
 
@@ -188,7 +188,7 @@ body{
     background-color: #FFFFFF;
     height: 655px;
     position: absolute;
-    width: 80%;
+    width: 100%;
     z-index: 2;
     top: 1895px;
     border: 1px solid;
@@ -335,6 +335,112 @@ body{
     font-weight: 700;
 }
 
+.container-1-section5{
+    position: relative;
+    z-index: 1;
+    background-color: #E5E5E5;
+    border: 2px solid blue;
+    height: 780px;
+    width: 100%;
+    top: 138px;
+}
+
+.container-1-foto1-section5{
+    position: absolute;
+    z-index: 2;
+    border: 1px solid #000000;
+    top: 90px;
+    right: 805px;
+
+}
+
+.container-2-branco-section5{
+    background-color: #FFFFFF;
+    height: 300px;
+    width: 450px;
+    border: 1px solid #000000;
+    position: relative;
+    z-index: 2;
+    right: -762px;
+    top: 90px;
+}
+
+.container-3-branco-section5{
+    background-color: #FFFFFF;
+    height: 306px;
+    width: 450px;
+    border: 1px solid #000000;
+    position: relative;
+    z-index: 2;
+    right: -762px;
+    top: 90px;
+}
+
+.div-icon1-section5{
+    position: relative;
+    z-index: 2;
+    right: -340px;
+    top: 20px;
+}
+
+.div-h3-1-section5{
+    position: relative;
+    z-index: 2;
+    right: -195px;
+    top: 40px;
+}
+
+.h3-1-section5{
+    font-family: fontOswald;
+    font-size: 30px;
+    color: #332E29;
+}
+
+.div-p-1-section5{
+    position: relative;
+    z-index: 2;
+    top: 40px;
+    right: -75px;
+}
+
+.p-1-section5{
+    font-family: fontOpen;
+    font-size: 15px;
+    color: #111111;
+}
+
+.div-icon2-section5{
+    position: relative;
+    z-index: 2;
+    right: -40px;
+    top: 20px;
+}
+
+.div-h3-2-section5{
+    position: relative;
+    z-index: 2;
+    right: -45px;
+    top: 40px;
+}
+
+.h3-2-section5{
+    font-family: fontOswald;
+    font-size: 30px;
+    color: #332E29;
+}
+
+.div-p-2-section5{
+    position: relative;
+    z-index: 2;
+    right: -45px;
+    top: 40px;
+}
+
+.p-2-section5{
+    font-family: fontOpen;
+    font-size: 15px;
+    color: #111111;
+}
 
 
 
