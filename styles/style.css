@@ -335,6 +335,8 @@ body{
     font-weight: 700;
 }
 
+/*section 5----------------------------------------------------------------------------------------------*/
+
 .container-1-section5{
     position: relative;
     z-index: 1;
@@ -442,6 +444,93 @@ body{
     color: #111111;
 }
 
+/*section 6----------------------------------------------------------------------------------------------*/
 
+.container-cinza-section6{
+    position: relative;
+    z-index: 1;
+    top: 138px;
+    width: 100%;
+    height: 306px;
+    background-color: #E5E5E5;
+    border: 2px solid peru;
+}
+
+.container-cinza-h2-section6{
+    position: relative;
+    z-index: 2;
+    right: -250px;
+    top: 100px;
+}
+
+.h2-section6{
+    font-family: fontOswald;
+    font-size: 48px;
+}
+
+.container-cinza-p-section6{
+    position: relative;
+    z-index: 2;
+    right: -250px;
+    top: 100px;
+}
+
+.p-section6{
+    font-family: fontOpen;
+    font-size: 20px;
+    color: #111111;
+}
+
+.container-cinza-a-section6{
+    position: relative;
+    z-index: 2;
+    right: -250px;
+    top: 80px;
+}
+
+.a-section6{
+    font-family: fontOpen;
+    font-size: 16px;
+    text-decoration: none;
+    border: 1px solid #000000;
+    background-color: #FFFFFF;
+    padding: 10px 20px;
+    color: #000000;
+}
+
+.container-branco-section6{
+    position: relative;
+    z-index: 1;
+    top: 138px;
+    height: 800px;
+    width: 100%;
+    background-color: #FFFFFF;
+    border: 1px solid aqua;
+}
+
+.container-branco-foto1-section6{
+    position: relative;
+    z-index: 3;
+    top: 200px;
+    right: -250px;
+}
+
+.container-branco-foto2-section6{
+    position: relative;
+    z-index: 3;
+    right: -700px;
+    top: -210px;
+}
+
+.container-cinza-2-section6{
+    position: relative;
+    z-index: 2;
+    top: -510px;
+    right: -550px;
+    background-color: #E5E5E5;
+    border: 1px solid gold;
+    height: 356px;
+    width: 670px;
+}
 
 
