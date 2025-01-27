@@ -651,3 +651,74 @@ body{
     color: #111111;
     font-size: 20px;
 }
+
+/*section 8----------------------------------------------------------------------------------------------*/
+
+ .container-branco-section8{
+    width: 100%;
+    height: 1350px;
+    position: relative;
+    border: 1px solid chartreuse;
+    top: 138px;
+    background-color: #FFFFFF;
+ }
+
+ .container-escrita-section8{
+    position: relative;
+    width: 100%;
+    top: 90px;
+ }
+
+ .h2-container-escrita-section8{
+    font-family: fontOswald;
+    font-size: 50px;
+    color: #000000;
+    text-align: center;
+ }
+
+ .p-container-escrita-section8{
+    font-family: fontOpen;
+    font-size: 20px;
+    color: #111111;
+    text-align: center;
+ }
+
+ .container-foto1-section8{
+    position: relative;
+    right: -470px;
+    top: 110px;
+ }
+
+ .foto1-section8{
+    border: 1px solid #000000;
+ }
+
+ .container-foto2-section8{
+    position: relative;
+    right: -800px;
+    top: -140px;
+ }
+
+ .foto2-section8{
+    border: 1px solid #000000;
+ }
+
+ .container-foto3-section8{
+    position: relative;
+    top: -460px;
+    right: -180px;
+ }
+
+ .foto-3-section8{
+    border: 1px solid #000000;
+ }
+
+ .container-foto4-section8{
+    position: relative;
+    right: -800px;
+    top: -779px;
+ }
+
+ .foto-4-section8{
+    border: 1px solid #000000;
+ }
