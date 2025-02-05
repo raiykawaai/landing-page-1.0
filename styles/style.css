@@ -18,6 +18,9 @@
     src: url(menu-icon.png);
 }
 
+html{
+    scroll-behavior: smooth;
+}
 
 /*header--------------------------------------------------------------------------------------------------*/
 
@@ -32,13 +35,23 @@ header{
 }
 
 
-header a{
+.home{
     font-family: fontOswald;
     font-size: 40px;
     color: #332E29;
     font-weight: bold; 
     text-decoration: none;
+    margin-right: 240px;
 }
+
+.design{
+    text-decoration: none;  
+    color: #332E29;
+    font-family: fontOpen;
+    font-size: 25px;
+    padding: 20px;
+}
+
 
 /*body---------------------------------------------------------------------------------------------------*/
 
@@ -47,8 +60,14 @@ body{
 
 }
 
-
 /*section 1----------------------------------------------------------------------------------------------*/
+
+.container-cinza-section1{
+    position: relative;
+    width: 100%;
+    background-color: #E5E5E5;
+}
+
 .div-escrita{
     width: 570px;
     height: 373px;
@@ -191,8 +210,6 @@ body{
     width: 100%;
     z-index: 2;
     top: 1895px;
-    border: 1px solid;
-    
 }
 
 .container-1-foto1-section3{
@@ -252,7 +269,6 @@ body{
 
 .div-cinza-section3{
     background-color: #E5E5E5;
-    border: 1px solid red;
     width: 100%;
     height: 600px;
     position: relative;
@@ -290,7 +306,6 @@ body{
     top: 138px;
     position: relative;
     z-index: 1;
-    border: 3px solid violet;
 }
 
 .div-h2-section4{
@@ -341,7 +356,6 @@ body{
     position: relative;
     z-index: 1;
     background-color: #E5E5E5;
-    border: 2px solid blue;
     height: 780px;
     width: 100%;
     top: 138px;
@@ -352,7 +366,7 @@ body{
     z-index: 2;
     border: 1px solid #000000;
     top: 90px;
-    right: 805px;
+    right: 810px;
 
 }
 
@@ -360,7 +374,6 @@ body{
     background-color: #FFFFFF;
     height: 300px;
     width: 450px;
-    border: 1px solid #000000;
     position: relative;
     z-index: 2;
     right: -762px;
@@ -371,7 +384,6 @@ body{
     background-color: #FFFFFF;
     height: 306px;
     width: 450px;
-    border: 1px solid #000000;
     position: relative;
     z-index: 2;
     right: -762px;
@@ -453,7 +465,6 @@ body{
     width: 100%;
     height: 306px;
     background-color: #E5E5E5;
-    border: 2px solid peru;
 }
 
 .container-cinza-h2-section6{
@@ -505,7 +516,6 @@ body{
     height: 800px;
     width: 100%;
     background-color: #FFFFFF;
-    border: 1px solid aqua;
 }
 
 .container-branco-foto1-section6{
@@ -528,7 +538,6 @@ body{
     top: -510px;
     right: -550px;
     background-color: #E5E5E5;
-    border: 1px solid gold;
     height: 356px;
     width: 670px;
 }
@@ -537,7 +546,6 @@ body{
 
 .container-cinza-section7{
     background-color: #E5E5E5;
-    border: 2px solid firebrick;
     top: 138px;
     height: 1800px;
     position: relative;
@@ -658,7 +666,6 @@ body{
     width: 100%;
     height: 1350px;
     position: relative;
-    border: 1px solid chartreuse;
     top: 138px;
     background-color: #FFFFFF;
  }
@@ -730,7 +737,6 @@ body{
     background-color: #FFFFFF;
     width: 100%;
     height: 1000px;
-    border: 2px solid orangered;
     top: 138px;
     z-index: 2;
  }
@@ -739,9 +745,8 @@ body{
     position: relative;
     width: 500px;
     height: 600px;
-    border: 1px solid black;
     top: 100px;
-    right: -300px;
+    right: -200px;
  }
 
  .h2-section9{
@@ -786,7 +791,6 @@ body{
     width: 800px;
     height: 200px;
     background-color: #E5E5E5;
-    border: 1px solid black;
     top: -600px;
     right: -768px;
   }
@@ -797,7 +801,6 @@ body{
     width: 440px;
     height: 480px;
     background-color: #E5E5E5;
-    border: 1px solid black;
     right: -1000px;
     top: -500px;
   }
